@@ -1,0 +1,39 @@
+body {
+    background: #fff;
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #505f98;
+}
+
+a {
+    text-decoration: none;
+    color: #505f98;
+}
+
+button {
+    border: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.title {
+    font-weight: 500;
+    font-size: 36px;
+    color: #091133;
+    margin-bottom: 16px;
+    line-height: 48px;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #6f7cb2;
+    margin-top: 6px;
+}
+
+li {
+    display: flex;
+}

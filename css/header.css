@@ -1,0 +1,54 @@
+.header {
+    background: url(../images/header-image.svg) no-repeat right top;
+    height: auto;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.header__nav {
+    padding-left: 500px;
+}
+
+.header__nav ul {
+    display: flex;
+}
+
+.header__nav-item {
+    font-size: 14px;
+    margin-right: 60px;
+}
+
+.header__title {
+    padding-left: 160px;
+    font-weight: 900;
+    font-size: 26px;
+    color: #37447e;
+}
+
+.header__buy-now {
+    width: 100px;
+    height: 26px;
+    background: #FFD166;
+    border-radius: 2px;
+    color: #111B47;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.header__learn-more {
+    width: 100px;
+    height: 26px;
+    background: #111b47;
+    border-radius: 2px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.header__button-margin {
+    margin-right: 25px;
+}
