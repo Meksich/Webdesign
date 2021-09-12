@@ -16,26 +16,31 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="container header__container">
-      <div class="header__title">Landie</div>
-      <nav class="header__nav">
-        <ul>
-          <li class="header__nav-item">
-            <a class="heaader__nav-link" href="">Home</a>
-          </li>
-          <li class="header__nav-item">
-            <a class="heaader__nav-link" href="">About</a>
-          </li>
-          <li class="header__nav-item">
-            <a class="heaader__nav-link" href="">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header__button-margin">
-        <button class="header__learn-more">Learn More</button>
-      </div>
-      <button class="header__buy-now">Buy Now</button>
+  <section class="hero">
+    <div class="container">
+      <header class="header">
+        <div class="header__title">Landie</div>
+        <nav id="nav-links" class="header__nav">
+          <ul>
+            <li class="header__nav-item">
+              <a class="heaader__nav-link" href="">Home</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="heaader__nav-link" href="">About</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="heaader__nav-link" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__button-margin">
+          <button class="header__learn-more">Learn More</button>
+        </div>
+        <button class="header__buy-now">Buy Now</button>
+        <div class="header__menu" onclick="toggleMenu()">
+          <img src="images/menu-icon.svg" alt="Menu icon">
+        </div>
+      </header>
     </div>
     <div class="container hero__container">
       <div class="hero__inner">
@@ -47,29 +52,25 @@
         <p class="hero__paragraph">Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
           sem.
           Nulla consequat massa quis enim.</p>
-        <nav class="hero__nav">
-          <ul>
-            <li>
-              <div class="hero__bottom">
-                <img src="images/sheet.svg" alt="Ilustration for first title">
-                <h1 class="hero__title">Title Goes Here</h1>
-                <p class="hero__bottom-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                  commodo ligula eget dolor. </p>
-              </div>
-            </li>
-            <li>
-              <div class="hero__bottom second">
-                <img src="images/sheet.svg" alt="Ilustration for first title">
-                <h1 class="hero__title">Title Goes Here</h1>
-                <p class="hero__bottom-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                  commodo ligula eget dolor. </p>
-              </div>
-            </li>
-          </ul>
-        </nav>
+        <div class="hero__bottom">
+          <div>
+            <img src="images/sheet.svg" alt="Ilustration for first title">
+            <h1 class="hero__title">Title Goes Here</h1>
+            <p class="hero__bottom-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. </p>
+          </div>
+          <div>
+            <img src="images/sheet.svg" alt="Ilustration for second title">
+            <h1 class="hero__title">Title Goes Here</h1>
+            <p class="hero__bottom-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. </p>
+          </div>
+        </div>
+        <div class="hero__illustration">
+          <img src="images/12.9-inch iPad Pro.svg" alt="Hero image" />
+        </div>
       </div>
-    </div>
-  </header>
+  </section>
   <section class="light-fast">
     <div class="container">
       <div class="light-fast__inner">
@@ -80,84 +81,75 @@
           mus. </p>
         <p class="light-fast__paragraph">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
           Nulla consequat massa quis enim.</p>
-        <nav class="hero__nav">
-          <ul>
-            <li>
-              <div class="hero__bottom">
-                <img src="images/sheet.svg" alt="Ilustration for first title">
-                <h1 class="hero__title">Title Goes Here</h1>
-                <p class="hero__bottom-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                  commodo ligula eget dolor. </p>
-              </div>
-            </li>
-            <li>
-              <div class="hero__bottom">
-                <img src="images/sheet.svg" alt="Ilustration for first title">
-                <h1 class="hero__title">Title Goes Here</h1>
-                <p class="hero__bottom-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                  commodo ligula eget dolor. </p>
-              </div>
-            </li>
-          </ul>
-        </nav>
+        <div class="hero__bottom">
+          <div>
+            <img src="images/sheet.svg" alt="Ilustration for first title">
+            <h1 class="hero__title">Title Goes Here</h1>
+            <p class="hero__bottom-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. </p>
+          </div>
+          <div>
+            <img src="images/sheet.svg" alt="Ilustration for first title">
+            <h1 class="hero__title">Title Goes Here</h1>
+            <p class="hero__bottom-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. </p>
+          </div>
+        </div>
+        <div class="light-fast__illustration">
+          <img src="images/undraw_mobile_login_ikmv.svg" alt="Light-fast image" />
+        </div>
       </div>
+      
+    </div>
   </section>
   <section class="pricing">
-    <div class="container pricing__container">
+    <div class="container">
       <h1 class="title">A Price To Suit Everyone</h1>
       <p class="paragraph pricing__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
         ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
         montes, nascetur ridiculus</p>
-      <nav class="pricing__nav">
-        <ul>
-          <li>
-            <div class="pricing__option">
-              <div class="pricing__price">FREE</div>
-              <div class="pricing__label">UI Kit Demo</div>
-              <div class="pricing__buy">
-                <div class="pricing__buy__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                  ligula eget dolor.
-                </div>
-                <div class="pricing__buy__text">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-                  montes,</div>
-                <button class="pricing__buy__button">Purchase Now</button>
+        <div class="pricing__options">
+          <div class="pricing__option">
+            <div class="pricing__price">FREE</div>
+            <div class="pricing__label">UI Kit Demo</div>
+            <div class="pricing__buy">
+              <div class="pricing__buy__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                ligula eget dolor.
               </div>
+              <div class="pricing__buy__text">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                montes,</div>
+              <button class="pricing__buy__button">Purchase Now</button>
             </div>
-          </li>
-          <li>
-            <div class="pricing__option">
-              <div class="pricing__price">$40</div>
-              <div class="pricing__label">Design Kit</div>
-              <div class="pricing__buy">
-                <div class="pricing__buy__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                  ligula eget dolor.
-                </div>
-                <div class="pricing__buy__text">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-                  montes,</div>
-                <button class="pricing__buy__button">Purchase Design Kit</button>
+          </div>
+          <div class="pricing__option">
+            <div class="pricing__price">$40</div>
+            <div class="pricing__label">Design Kit</div>
+            <div class="pricing__buy">
+              <div class="pricing__buy__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                ligula eget dolor.
               </div>
+              <div class="pricing__buy__text">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                montes,</div>
+              <button class="pricing__buy__button">Purchase Design Kit</button>
             </div>
-          </li>
-          <li>
-            <div class="pricing__option">
-              <div class="pricing__price">$75</div>
-              <div class="pricing__label">Design & Code Package</div>
-              <div class="pricing__buy">
-                <div class="pricing__buy__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                  ligula eget dolor.
-                </div>
-                <div class="pricing__buy__text">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-                  montes,</div>
-                <button class="pricing__buy__button">Purchase Package</button>
+          </div>
+          <div class="pricing__option">
+            <div class="pricing__price">$75</div>
+            <div class="pricing__label">Design & Code Package</div>
+            <div class="pricing__buy">
+              <div class="pricing__buy__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                ligula eget dolor.
               </div>
+              <div class="pricing__buy__text">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                montes,</div>
+              <button class="pricing__buy__button">Purchase Package</button>
             </div>
-          </li>
-        </ul>
-      </nav>
+          </div>
+        </div>
     </div>
   </section>
   <footer class="footer">
-    <div class="container">
+    <div class="footer__container">
       <div class="footer__branding">
         <div class="footer__branding__date">©2020 LPNU</div>
         <div class="footer__branding__logo">Landie</div>
@@ -190,6 +182,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>

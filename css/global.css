@@ -4,20 +4,47 @@ body {
     color: #505f98;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+}
+
 a {
     text-decoration: none;
     color: #505f98;
 }
 
 button {
-    border: 0;
+    border-color: rgb(47, 231, 10);
+    border-width: 3px;
+}
+
+button:hover {
+    border-color: crimson;
+    transition: border-color 1s;
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 1100px;
+        margin: 0 11.5vw;
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+}
 
 .title {
     font-weight: 500;
@@ -32,8 +59,4 @@ button {
     line-height: 26px;
     color: #6f7cb2;
     margin-top: 6px;
-}
-
-li {
-    display: flex;
 }
