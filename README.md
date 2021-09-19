@@ -1,5 +1,5 @@
 # Landing Website For Laboratory work №3
-Simple landing page made with pure HTML/CSS/JS for students of ["Internet of Things"](http://iot.lviv.ua) programm in Lviv Polytechnic National University.
+Simple View page made with pure HTML/CSS/JS for students of ["Internet of Things"](http://iot.lviv.ua) programm in Lviv Polytechnic National University.
 The website was made by students of [the same program](http://iot.lviv.ua), who decided to contribute into education and to inspire young generation 
 
 ---
