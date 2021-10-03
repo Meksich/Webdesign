@@ -1,0 +1,21 @@
+.nav-title {
+    padding: 5px 2vw;
+}
+
+.navbar {
+    background-color: lightgray;
+    padding: 0;
+    height: 60px;
+    
+}
+
+.nav-link{
+    background-color: lightgray;
+    border: lightgray;
+    height: 60px;
+}
+
+.nav-link:hover{
+    background-color: gray;
+    border-radius: 4%;
+}
